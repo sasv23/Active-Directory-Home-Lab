@@ -44,7 +44,7 @@ Installed AD DS, promoted a Windows Server VM to Domain Controller, and created 
 
 ![Users Created](screenshots/Users_created.png)
 
-![WS01 Added to Domain](screenshots/Ws01__adding_computer_to_AD_.png)
+![WS01 Added to Domain](screenshots/WS01_adding_computer_to_AD.png)
 
 Created and managed domain users, joined workstation WS01 to the domain, and verified membership via ADUC.
 
@@ -53,8 +53,6 @@ Created and managed domain users, joined workstation WS01 to the domain, and ver
 ![Adding Engineering Background GPO](screenshots/Adding_background_for_Engineering_group.png)
 
 ![Adjusting Group Settings](screenshots/Adjusting_settings_for_various_groups.png)
-
-![Engineering Dept Background Applied](screenshots/Updated_background.png)
 
 Created and linked GPOs to the Engineering OU including `SetEngineeringBackground` and `LockDesktop`. Verified policy deployment on WS01 — the Engineering Dept. wallpaper was successfully applied via Group Policy.
 
